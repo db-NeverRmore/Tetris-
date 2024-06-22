@@ -16,6 +16,7 @@ Clone the repository:
     ```
   https://github.com/db-NeverRmore/Tetris-.git
     ```
+    
 2. Open the project in Visual Studio or another IDE for C#.
 3. Build and run the project.
 4. Use the arrows on your keyboard to play 
