@@ -31,6 +31,8 @@ However, it can still be done, but it will be far from perfect.
 
 Actions that will help you launch this project 
 # Use of Avalonia 
+I highly recommend using Avalonia.
+Avalonia allows you to write XAML code that is very similar to WPF and use C# for implementation.
 ```
 sudo apt-get update
 sudo apt-get install -y dotnet-sdk-7.0
@@ -41,6 +43,7 @@ cd MyAvaloniaApp
 dotnet run
 ```
 # With wine
+Using Wine may not always be successful, especially if the project is complex and heavy. 
 ```
 sudo apt-get install wine
 wine ur_project.exe
