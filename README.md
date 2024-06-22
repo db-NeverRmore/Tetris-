@@ -23,3 +23,27 @@ Clone the repository:
 
 # Attribution
 If you want to contribute to your project you can submit a co-development request !
+
+# If I'm using linux
+
+Running WPF on Linux can be challenging because WPF is designed specifically for the Windows operating system.
+However, it can still be done, but it will be far from perfect.
+
+Actions that will help you launch this project 
+# Use of Avalonia 
+sudo apt-get update
+sudo apt-get install -y dotnet-sdk-7.0
+
+dotnet new avalonia.app -o MyAvaloniaApp
+cd MyAvaloniaApp
+dotnet run
+
+# With wine
+sudo apt-get install wine
+wine ur_project.exe
+
+# Mono-develope 
+sudo apt-get update
+sudo apt-get install mono-complete
+
+Then prepare your Mono-develope IDE by installing the compiler if required.
