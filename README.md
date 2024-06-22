@@ -12,7 +12,7 @@ Prototype of the popular game tertris in C#, using tetromino figures !
 - Visual Studio 2022 or another IDE for C# ( it is strongly recommended to use Visual studio )
 
 # How to play?
-Clone the repository:
+1.Clone the repository:
     ```
   https://github.com/db-NeverRmore/Tetris-.git
     ```
