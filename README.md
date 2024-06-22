@@ -38,8 +38,8 @@ sudo apt-get update
 sudo apt-get install -y dotnet-sdk-7.0
 ```
 ```
-dotnet new avalonia.app -o MyAvaloniaApp
-cd MyAvaloniaApp
+dotnet new avalonia.app -o avaloniaApp
+cd avaloniaApp
 dotnet run
 ```
 # With wine
